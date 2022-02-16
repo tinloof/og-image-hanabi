@@ -197,7 +197,7 @@ const App = (_: any, state: AppState, setState: SetState) => {
         setState({ ...newState, loading: true });
     };
     const {
-        fileType = 'png',
+        fileType = 'jpeg',
         fontSize = '100px',
         theme = 'light',
         md = true,
